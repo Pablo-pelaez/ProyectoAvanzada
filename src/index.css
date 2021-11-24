@@ -1,0 +1,61 @@
+
+
+body {
+margin:0;
+padding:0;
+background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+backdrop-filter: blur(1.5rem);
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+overflow-x:hidden;
+}
+
+.form{
+background: rgb(211, 211, 211);
+border: 2px solid steelblue;
+border-radius: 1rem;
+
+}
+
+.center{
+display: flex;
+align-items: center;
+height: 800px;
+
+}
+
+.contra{
+margin-top: 1em;
+margin-bottom: 13px;
+
+}
+.select{
+width: 200px;
+border-radius: 3px;
+border: solid 1px;
+border-color: #abb0b4;
+color: #5b6774;
+height: 58px;
+padding: 3px;
+padding-left: 7px;
+
+}
+footer{
+margin-top: 10%;
+box-Shadow :0 19px 38px rgb(246, 250, 247), 0 15px 12px rgba(0, 0, 0, 0.22);
+margin: 1rem;
+position: absolute;
+display: flex;
+align-self: flex-end;
+margin-top: auto;
+
+}
+
+classes.root{
+margin-bottom: 12em;
+}
+
